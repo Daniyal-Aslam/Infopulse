@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+h4{
+  font-weight: 500;
+  line-height: 28px;
+}
+a{
+  text-decoration:none;
+}
+
+/* LOADER STYLES BEGIN */
+.loading-container{
+  display: grid;
+height: 100vh;
+place-content: center;
+text-align: center;
+}
+/* LOADER STYLES END */
+
+
+/* CONTAINER BEGIN */
+.container-style{
+  padding: 40px 0 20px 0;
+}
+/* CONTAINER END */
+/* SORTING BOX */
+.sorting_box{
+  margin: 30px 0;
+  display: flex;
+  gap: 20px;
+  align-items:center;
+  justify-content: space-between;
+}
+/* SORTING BOX */
+
+/* HEADING BEGIN */
+.theme-heading{
+  text-align: center;
+  margin: 30px 0;
+}
+/* HEADING END */
+
+/* BUTTON STYLES BEGIN */
+.btn-theme{
+  background: #1976d2;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 5px;
+  width: fit-content;
+  display: block;
+  margin: 30px 0 10px  0;
+}
+/* BUTTON STYLES END */
+.theme-heading span{
+  color:#1976d2;
+}
+.sorting_box h4{
+  margin-bottom: 10px;
+}
+.sorting_box .MuiInputBase-formControl,
+.single-news-card-head  .MuiInputBase-formControl {
+  min-width: 100px;
+  max-height: 30px;
+}
+.sorting_box :is(label,input){ 
+  font-family: 'Poppins', sans-serif;
+}
+.error-container{ 
+  margin: auto;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.error-container .MuiTypography-root { 
+  font-family: 'Poppins', sans-serif;
+  min-width: 600px;
+}
+
+/* SINGLE ARTICLE BEGIN */
+
+.single-news-card  img{
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+  width: 100%;
+  margin: 30px 0;
+  border: 1.5px solid #efefef;
+  border-radius: 5px;
+}
+.single-news-card :is(h3,p){ 
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.single-news-card  svg { 
+  font-size: 30px;
+}
+.single-news-card {
+  padding:80px 0 30px 0;
+}
+.single-news-card-head{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.single-news-card h2{
+  width: 70%;
+  font-size: 50px;
+  line-height:60px;
+  margin-bottom: 30px;
+}
+.single-news-card .single-news-card--container{
+  display: flex; 
+  justify-content: space-between;
+}
+/* SINGLE ARTICLE END */
+
+@media screen  and (max-width:767px){ 
+  .single-news-card h2{
+    width: 100%;
+    font-size: 30px;
+    line-height: 38px;
+  }
+.sorting_box > div{
+  display: flex;
+ row-gap: 10px;
+ width: 70%;
+  flex-wrap: wrap;
+}
+.single-news-card .single-news-card--container,
+.single-news-card-head{
+  flex-direction: column;
+  gap: 10px;
+}
+.sorting_box .MuiFormControl-root{
+  width:30%;
+} 
+}
