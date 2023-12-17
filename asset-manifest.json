@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/DubbizlePress/static/css/main.c9807ce9.css",
+    "main.js": "/DubbizlePress/static/js/main.00cc0bcd.js",
+    "static/js/787.d4c5622f.chunk.js": "/DubbizlePress/static/js/787.d4c5622f.chunk.js",
+    "static/media/not_available.jpeg": "/DubbizlePress/static/media/not_available.e047e2e34894a36939b6.jpeg",
+    "index.html": "/DubbizlePress/index.html",
+    "main.c9807ce9.css.map": "/DubbizlePress/static/css/main.c9807ce9.css.map",
+    "main.00cc0bcd.js.map": "/DubbizlePress/static/js/main.00cc0bcd.js.map",
+    "787.d4c5622f.chunk.js.map": "/DubbizlePress/static/js/787.d4c5622f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9807ce9.css",
+    "static/js/main.00cc0bcd.js"
+  ]
+}
